@@ -1,0 +1,1313 @@
+*{
+	margin: 0px;
+}
+
+#taskbar{
+	background-color: black;
+	width: 100%;
+	height: 64px;
+}
+
+a{
+	width: 60px;
+	font-stle: none;
+	text-decoration: none;
+	color: white;
+}
+
+
+
+@media(min-width: 1250px)
+{
+	.bar{
+	float: left;
+	margin-top: 25px;
+	margin-left: 30px;
+    color: white;
+    font-family: Clan Pro Med;
+    font-size: 13.2px;
+    cursor: pointer;
+    }
+
+    #world{
+	float: right;
+	margin-top: 24px;
+	margin-right: 10px;
+	height: 20px;
+	width: 20px;
+	background-image: url('../images/world icon.jpg');
+	cursor: pointer;
+}
+
+@media(max-width: 1249px)
+{
+	.bar2 {
+	float: left;
+	margin-top: 25px;
+	margin-left: 30px;
+    color: white;
+    font-family: Clan Pro News;
+    display: none;
+    font-size: 0px;
+    cursor: pointer;
+	}
+
+	.barEmpty{
+		display: none;
+	}
+}
+
+#profileIcon{
+	width: 20px;
+	height: 20px;
+	float: right;
+	background-image: url('../images/profile icon.jpg');
+	background-repeat: no-repeat;
+	position: relative;
+	top: 24px;
+	right: 10px;
+	cursor: pointer;
+}
+
+#uber{
+	width: 75px;
+	height: 38px;
+	float: left;
+	background-image: url('../images/uber logo.jpg');
+	background-repeat: no-repeat;
+	margin-top: 12px;
+	margin-left: 16vw;
+	cursor: pointer;
+}
+
+#uberLogo3{
+	background-image: url('../images/uber box.jpg');
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 150px;
+	float: left;
+	background-size: 60%;
+	cursor: pointer;
+}
+
+.barRight div{
+	text-align: center;
+	position: relative;
+	top: 9px;
+	cursor: pointer;
+}
+
+.barRight2{
+	float: right;
+	margin-top: 26px;
+	margin-right: 14px;
+    color: white;
+    font-family: Clan Pro Med;
+    font-size: 13.2px;
+    cursor: pointer;
+}
+
+.barRight{
+	width: 75px;
+	height: 35px;
+	float: right;
+	margin-top: 17px;
+	margin-right: 16vw;
+    color: black;
+    background-color: white;
+    border-radius: 17px;
+    font-family: Clan Pro Med;
+    font-size: 13.2px;
+    cursor: pointer;
+
+}
+
+#dots{
+	height: 20px;
+	width: 20px;
+    background-image: url('../images/dots.jpg');
+    background-repeat: no-repeat;
+    float: right;
+    position: relative;
+    top: 24px;
+    right: 10px;
+    cursor: pointer;
+    }
+}
+
+#products{
+	float: right;
+	margin-top: 26px;
+	margin-right: 40px;
+    color: white;
+    font-family: Clan Pro Med;
+    font-size: 13.2px;
+    cursor: pointer;
+}
+
+#uber{
+	width: 75px;
+	height: 38px;
+	float: left;
+	background-image: url('../images/uber logo.jpg');
+	background-repeat: no-repeat;
+	margin-top: 12px;
+	margin-left: 16vw;
+	cursor: pointer;
+}
+
+#EN{
+	height: 30px;
+	text-align: center;
+	margin-top: 26px;
+	margin-right: 40px;
+	float: right;
+	font-family: Clan Pro Med;
+	font-size: 13.2px;
+	color: white;
+	cursor: pointer;
+}
+
+#belowTaskBar{
+	width: 100%;
+	height: 504px;
+	background-image: url('../images/safety/mask.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	float: left;
+}
+
+.hText{
+	color: white;
+	font-family: Clan Pro Med;
+	font-size: 47px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.margin{
+	width: 62%;
+	margin: auto;
+}
+
+.margin2{
+	width: 68%;
+	margin: auto;
+}
+
+.smallTextB{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-right: 50px;
+	white-space: nowrap;
+}
+
+.smallTextW{
+	font-family: Clan Pro Med;
+	width: 520px;
+	font-size: 16px;
+	color: White;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.bigTextB{
+	font-family: Clan Pro Med;
+	color: rgb(51,51,51);
+	font-size: 34px;
+	width: 660px;
+	margin-top: 62px;
+}
+
+#imageText1{
+    height: 450px;
+    margin-top: 72px;
+}
+
+#hyper{
+	color: white;
+	width: 132px;
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	border-bottom: 1px solid white;
+	padding-bottom: 4px;
+	cursor: pointer;
+}
+
+#belowMaskImg{
+	float: left;
+	height: 375px;
+	width: 100%;
+	border-bottom: 30px;
+}
+
+#sanitize{
+	width: 100%;
+	height: 685px;
+	float: left;
+	background-color: rgb(5, 12, 77);
+}
+
+.underlineG
+{
+    border-bottom: 1px solid grey;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.underlineG:hover
+{
+    border-bottom: 1px solid black;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+#t1{
+	width: 213px;
+	float: left;
+
+}
+
+#t2{
+	width: 398px;
+	float: left;
+}
+
+#sanImg{
+	background-image: url('../images/safety/WWA_D2x.png');
+	height: 558px;
+	width: 558px;
+	margin-top: 63.5px;
+	float: left;
+
+}
+
+#sanImgHead{
+	float: left;
+	font-size: 34px !important;
+	margin-top: 220px;
+	margin-left: 140px;
+	width: 390px;
+}
+
+#text2{
+	float: left;
+	font-family: Clan Pro Reg;
+	margin-left: 140px;
+	margin-bottom: 30px;
+	width: 460px;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+#learn{
+	float: left;
+	margin-left: 140px;
+	width: 100px;
+	color: white;
+	font-family: Clan Pro Reg !important;
+}
+
+#learn:hover{
+	float: left;
+	margin-left: 140px;
+	width: 100px;
+	border-bottom: 1px solid white !important;
+	font-family: Clan Pro Reg !important;
+}
+
+#standard1{
+	height: 476px;
+	width: 100%;
+	float: left;
+	padding: 64px 0px;
+}
+
+#standText1{
+	margin-top: 0px;
+	float: left;
+}
+
+#standText2{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	float: left;
+	width: 800px;
+	font-family: Clan Pro Reg;
+}
+
+#clipImg{
+	background-image: url('../images/safety/checklist-on-square.png');
+	background-repeat: no-repeat;
+	height: 48px;
+	width: 410px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 30px
+}
+
+#smallMaskImg{
+	background-image: url('../images/safety/mask-on-square.png');
+	background-repeat: no-repeat;
+	height: 48px;
+	width: 410px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 30px
+}
+
+#verImg{
+	background-image: url('../images/safety/FCC-on-square.png');
+	background-repeat: no-repeat;
+	height: 48px;
+	width: 200px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 30px
+}
+
+#clipDesc{
+
+	height: 150px;
+	width: 410px;
+	float: left;
+}
+
+#maskDesc{
+
+	height: 150px;
+	width: 410px;
+	float: left;
+}
+
+#verDesc{
+
+	height: 150px;
+	width: 340px;
+	float: left;
+}
+
+#empty{
+	float: left;
+	width: 100%;
+}
+
+.descB{
+	font-family: Clan Pro Reg;
+	font-color: rgb(89,89,89);
+	font-size: 15px;
+	float: left;
+	margin-top: 15px;
+	line-height: 22px;
+}
+
+#hWidth1{
+	width: 90%;
+}
+
+#hWidth2{
+    width: 90%;
+}
+
+#hWidth3{
+    width: 100%;
+}
+
+.iconH{
+	font-family: Clan Pro Med;
+	font-size: 17px;
+	color: rgb(89,89,89);
+}
+
+#backgroundChk{
+	width: 100%;
+	height: 490px;
+	float: left;
+}
+
+#bChkImg{
+	background-image: url('../images/safety/2-All-drivers-are-screened-before-their-first-trip-Desktop-(1).jpg');
+	width: 558px;
+	height: 372px;
+	float: left;
+	border: 1px solid rgb(238,238,238);
+}
+
+#bChkH{
+	font-family: Clan Pro Med;
+	font-size: 32px;
+	width: 39%;
+	float: left;
+	color: rgb(49, 49, 49);
+	margin-left: 120px;
+	margin-top: 5px;
+}
+
+#bChkB{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	width: 498px;
+	float: left;
+	margin-left: 120px;
+	margin-top: 30px;
+}
+
+#bChkF{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	width: 222px;
+	float: left;
+	margin-left: 120px;
+	margin-top: 50px;
+	border-bottom: 1px solid grey;
+	padding-bottom: 4px;
+	cursor: pointer;
+}
+
+#bChkF:hover{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	width: 222px;
+	float: left;
+	margin-left: 120px;
+	margin-top: 50px;
+	border-bottom: 1px solid black;
+	padding-bottom: 4px;
+	cursor: pointer;
+}
+
+#clean{
+	width: 100%;
+	height: 490px;
+	float: left;
+}
+
+#cleanImg{
+	background-image: url('../images/safety/Clorox.jpg');
+	width: 558px;
+	height: 372px;
+	float: left;
+	border: 1px solid rgb(238,238,238);
+}
+
+#cleanH{
+	font-family: Clan Pro Med;
+	font-size: 32px;
+	width: 39%;
+	float: left;
+	color: rgb(49,49,49);
+	margin-left: 120px;
+	margin-top: 5px;
+}
+
+#cleanB{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	width: 498px;
+	float: left;
+	margin-left: 120px;
+	margin-top: 30px;
+}
+
+#emerg{
+	width: 100%;
+	height: 490px;
+	float: left;
+}
+
+#emergImg{
+	height: 490px;
+	width: 558px;
+	float: left;
+	background-image: url('../images/safety/US-can-safety-emergency-help-button.jpg');
+	background-repeat: no-repeat;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+#emergText{
+	height: 490px;
+	width: 50%;
+	float: left;
+}
+
+#emergH{
+	font-family: Clan Pro Med;
+	font-size: 32px;
+	color: rgb(49,49,49);
+	float: left;
+	width: 70%;
+}
+
+#emergB{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	float: left;
+	margin-top: 30px;
+	width: 84%;
+	line-height: 23px;
+}
+
+#emergF{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	width: 135px;
+	float: left;
+	margin-top: 50px;
+	border-bottom: 1px solid grey;
+	padding-bottom: 4px;
+	cursor: pointer;
+}
+
+#emergF:hover{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	width: 135px;
+	float: left;
+	margin-top: 50px;
+	border-bottom: 1px solid black;
+	padding-bottom: 4px;
+	cursor: pointer;
+}
+
+.block{
+	width: 100%;
+	height: 490px;
+	float: left;
+}
+
+#techH{
+	font-family: Clan Pro Med;
+	font-size: 32px;
+	color: rgb(49,49,49);
+	float: left;
+	width: 70%;
+}
+
+#techB{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	float: left;
+	margin-top: 30px;
+	width: 84%;
+	line-height: 23px;
+}
+
+#techF{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	width: 225px;
+	float: left;
+	margin-top: 50px;
+	border-bottom: 1px solid grey;
+	padding-bottom: 4px;
+	cursor: pointer;
+}
+
+#techF:hover{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	width: 225px;
+	float: left;
+	margin-top: 50px;
+	border-bottom: 1px solid black;
+	padding-bottom: 4px;
+	cursor: pointer;
+}
+
+.secText{
+	height: 490px;
+	width: 50%;
+	float: left;
+}
+
+
+#techImg{
+	height: 490px;
+	width: 558px;
+	float: left;
+	background-image: url('../images/safety/US-can-safety-ridecheck.jpg');
+	background-repeat: no-repeat;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+#insH{
+	font-family: Clan Pro Med;
+	font-size: 32px;
+	color: rgb(49,49,49);
+	float: left;
+	width: 70%;
+}
+
+#insB{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	float: left;
+	margin-top: 30px;
+	width: 84%;
+	line-height: 23px;
+}
+
+#insF{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	width: 220px;
+	float: left;
+	margin-top: 50px;
+	border-bottom: 1px solid grey;
+	padding-bottom: 4px;
+	cursor: pointer;
+}
+
+#insF:hover{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	width: 220px;
+	float: left;
+	margin-top: 50px;
+	border-bottom: 1px solid black;
+	padding-bottom: 4px;
+	cursor: pointer;
+}
+
+#insImg{
+	height: 490px;
+	width: 558px;
+	float: left;
+	background-image: url('../images/safety/RIDER.jpg');
+	background-repeat: no-repeat;
+	margin-left: 20px;
+}
+
+#supportH{
+	font-family: Clan Pro Med;
+	font-size: 32px;
+	color: rgb(49,49,49);
+	float: left;
+	width: 70%;
+}
+
+#supportB{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	float: left;
+	margin-top: 30px;
+	width: 84%;
+	line-height: 23px;
+}
+
+#supportF{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	width: 128px;
+	float: left;
+	margin-top: 50px;
+	border-bottom: 1px solid grey;
+	padding-bottom: 4px;
+	cursor: pointer;
+}
+
+#supportF:hover{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	width: 128px;
+	float: left;
+	margin-top: 50px;
+	border-bottom: 1px solid black;
+	padding-bottom: 4px;
+	cursor: pointer;
+}
+
+#supportImg{
+	height: 490px;
+	width: 558px;
+	float: left;
+	background-image: url('../images/safety/US-can-safety-support.jpg');
+	background-repeat: no-repeat;
+	margin-left: 20px;
+}
+
+#privH{
+	font-family: Clan Pro Med;
+	font-size: 32px;
+	color: rgb(49,49,49);
+	float: left;
+	width: 70%;
+}
+
+#privB{
+	font-family: Clan Pro Reg;
+	font-size: 16px;
+	float: left;
+	margin-top: 30px;
+	width: 84%;
+	line-height: 23px;
+}
+
+#privImg{
+	height: 490px;
+	width: 558px;
+	float: left;
+	background-image: url('../images/safety/US-can-safety-privacy.jpg');
+	background-repeat: no-repeat;
+	margin-left: 20px;
+}
+
+#bottom{
+	width: 100%;
+	height: 586px;
+	float: left;
+}
+
+.quartL{
+	width: 565px;
+	height: 198px;
+	float: left;
+	margin-bottom: 40px;
+	border: 1px solid lightgrey;
+	cursor: pointer;
+}
+
+.quartR{
+	width: 565px;
+	height: 198px;
+	float: right;
+	margin-bottom: 40px;
+	border: 1px solid lightgrey;
+	cursor: pointer;
+}
+
+#CG{
+	background-image: url('../images/safety/US-can-safety-community-guidelines-thumb.jpg');
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 150px;
+	margin: 25px;
+	float: left;
+	cursor: pointer;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+
+#CG2{
+	background-image: url('../images/safety/US-can-safety-rider-thumb2.jpg');
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 150px;
+	margin: 25px;
+	float: left;
+	cursor: pointer;
+}
+
+#CG3{
+	background-image: url('../images/safety/US-can-safety-driver-thumb.jpg');
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 150px;
+	margin: 25px;
+	float: left;
+	cursor: pointer;
+}
+
+#CG4{
+	background-image: url('../images/safety/US-can-safety-womens-thumb.jpg');
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 150px;
+	margin: 25px;
+	float: left;
+	cursor: pointer;
+}
+
+.cgText{
+	font-family: Clan Pro Med;
+	font-size: 21px;
+	margin: auto;
+	margin-top: 85px;
+	background-position: center;
+	width: 430px;
+	cursor: pointer;
+	max-width: 50%;
+
+}
+
+
+#arrow1{
+	background-image: url('../images/arrow.jpg');
+	background-repeat: no-repeat;
+	height: 41px;
+	width: 41px;
+	background-size: 60%;
+	float: right;
+	background-position: center;
+	position: relative;
+	right: 15px;
+	bottom: 55px;
+}
+
+.arrow{
+	background-image: url('../images/arrow.jpg');
+	background-repeat: no-repeat;
+	height: 41px;
+	width: 41px;
+	background-size: 60%;
+	float: right;
+	background-position: center;
+	position: relative;
+	right: 15px;
+	bottom: 30px;
+}
+
+#arrow1:hover{
+	background-image: url('../images/arrow.jpg');
+	background-repeat: no-repeat;
+	height: 41px;
+	width: 41px;
+	background-size: 60%;
+	float: right;
+	background-position: center;
+	position: relative;
+	right: 3px;
+	bottom: 55px;
+}
+
+.arrow:hover{
+	background-image: url('../images/arrow.jpg');
+	background-repeat: no-repeat;
+	height: 41px;
+	width: 41px;
+	background-size: 60%;
+	float: right;
+	background-position: center;
+	position: relative;
+	right: 3px;
+	bottom: 30px;
+}
+
+#bottomT{
+	height: 220px;
+	width: 100%;
+	float: left;
+}
+
+#bottomTStyle{
+	font-family: Clan Pro Reg;
+	font-size: 13px;
+}
+
+#lastLine{
+	width: 68%;
+	height: 35px;
+	margin: auto;
+	float: left;
+}
+
+#cr{
+	font-family: Arial;
+	font-size: 13px;
+	color: grey;
+	margin-left: 30px;
+	position: relative;
+	top: 20px;
+}
+
+#terms{
+	height: 25px;
+	font-family: Arial;
+	font-size: 13px;
+	color: grey;
+	margin-left: 30px;
+	float: right;
+	cursor: pointer;
+	position: relative;
+	left: 414px;
+}
+
+#terms:hover{
+	height: 25px;
+	font-family: Arial;
+	font-size: 13px;
+	color: darkgrey;
+	margin-left: 30px;
+	float: right;
+	cursor: pointer;
+	position: relative;
+	left: 414px;
+}
+
+#bottomF{
+	width: 100%;
+	height: 860px;
+	background-color: black;
+	float: left;
+}
+
+#insideBottom{
+	width: 68%;
+	margin: auto;
+	height: 600px;
+	float: left;
+}
+
+#foot{
+	width: 68%;
+	height: 160px;
+	margin:auto;
+	float: Left;
+}
+
+#cali{
+	color: white;
+	text-align: right;
+	float: right;
+	margin-top: 70px;
+	font-family: Verdana;
+	font-size: 13px;
+	width: 100%;
+	position: relative;
+	left: 414px;
+	cursor: pointer;
+}
+
+#cali:hover{
+	color: grey;
+	text-align: right;
+	float: right;
+	margin-top: 70px;
+	font-family: Verdana;
+	font-size: 13px;
+	width: 100%;
+	cursor: pointer;
+}
+
+#help{
+	color: white;
+	width: 138px;
+	height: 10px;
+	position: relative;
+	top: 100px;
+	right: 150px;
+	font-family: Verdana;
+	font-size: 16px;
+	float: left;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+#help:hover{
+	color: white;
+	width: 138px;
+	height: 10px;
+	font-family: Verdana;
+	font-size: 16px;
+	float: left;
+	margin-left: 15px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid white;
+	cursor: pointer;
+}
+
+#fb{
+	background-image: url('../images/fb.jpg');
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 22px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 60px;
+	cursor: pointer;
+}
+
+#tw{
+	background-image: url('../images/twitter.jpg');
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 22px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 60px;
+	cursor: pointer;
+}
+
+#yt{
+	background-image: url('../images/yt.jpg');
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 22px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 60px;
+	cursor: pointer;
+}
+
+#in{
+	background-image: url('../images/in.jpg');
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 22px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 60px;
+	cursor: pointer;
+}
+
+#inst{
+	background-image: url('../images/inst.jpg');
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 22px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 60px;
+	cursor: pointer;
+}
+
+#lang{
+	background-image: url('../images/world icon.jpg');
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 22px;
+	float: left;
+	margin-left: 65px;
+	margin-top: 60px;
+	cursor: pointer;
+}
+
+#loc{
+	background-image: url('../images/loc.jpg');
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 22px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 60px;
+	cursor: pointer;
+}
+
+#loc1{
+	color: white;
+	font-family: Verdana;
+	float: left;
+	font-size: 14px;
+	margin-left: 8px;
+	margin-top: 61px;
+	cursor: pointer;
+}
+
+#gp{
+	background-image: url('../images/app stores.jpg');
+	background-repeat: no-repeat;
+	height: 46px;
+	width: 283px;
+	float:right;
+	margin-left: 30px;
+	margin-top: 60px;
+	cursor: pointer;
+	position: relative;
+	left: 415px;
+}
+
+#eng{
+	color: white;
+	font-family: Verdana;
+	float: left;
+	font-size: 14px;
+	margin-left: 8px;
+	margin-top: 61px;
+	cursor: pointer;
+}
+
+
+#features{
+	font-family: Clan Pro Reg;
+	font-size: 15px;
+	float: left;
+	position: relative;
+	bottom: 294px;
+	right: 252px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid lightgrey;
+	cursor: pointer;
+}
+
+#features:hover{
+	font-family: Clan Pro Reg;
+	font-size: 15px;
+	float: left;
+	position: relative;
+	bottom: 294px;
+	right: 252px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid black;
+	cursor: pointer;
+}
+
+#acc{
+	height: 25px;
+	font-family: Arial;
+	font-size: 13px;
+	color: grey;
+	margin-left: 30px;
+	float: right;
+	cursor: pointer;
+	position: relative;
+	left: 414px;
+}
+
+#acc:hover{
+	height: 25px;
+	font-family: Arial;
+	font-size: 13px;
+	color: darkgrey;
+	margin-left: 30px;
+	float: right;
+	cursor: pointer;
+	position: relative;
+	left: 414px;
+}
+
+#pri{
+	font-family: Arial;
+	font-size: 13px;
+	color: grey;
+	margin-left: 30px;
+	float: right;
+	cursor: pointer;
+	position: relative;
+	left: 414px;
+}
+
+#pri:hover{
+	height: 25px;
+	font-family: Arial;
+	font-size: 13px;
+	color: darkgrey;
+	margin-left: 30px;
+	float: right;
+	cursor: pointer;
+	position: relative;
+	left: 414px;
+}
+
+#help{
+	color: white;
+	width: 138px;
+	height: 10px;
+	position: relative;
+	top: 100px;
+	right: 150px;
+	font-family: Verdana;
+	font-size: 16px;
+	float: left;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+#help:hover{
+	color: white;
+	width: 138px;
+	height: 10px;
+	font-family: Verdana;
+	font-size: 16px;
+	float: left;
+	margin-left: 15px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid white;
+	cursor: pointer;
+}
+
+#companyFoot{
+	color: white;
+	font-family: Verdana;
+	font-weight: bold;
+	float: left;
+	position: relative;
+	top: 200px;
+	right: 287px;
+}
+
+#productsFoot{
+	color: white;
+	font-family: Verdana;
+	font-weight: bold;
+	float: left;
+	position: relative;
+	top: 200px;
+	right: 50px;
+}
+
+#citizenFoot{
+	color: white;
+	font-family: Verdana;
+	font-weight: bold;
+	float: left;
+	position: relative;
+	top: 200px;
+	left: 187px;
+}
+
+#aboutUsFoot{
+	color: white;
+	font-family: Verdana;
+	font-size: 14px;
+	position:relative;
+	top: 80px;
+	left: 18px;
+	width: 100px;
+	height: 300px;
+	line-height: 35px;
+	cursor: pointer;
+}
+
+#rideFoot{
+	color: white;
+	font-family: Verdana;
+	font-size: 14px;
+	position:relative;
+	top: 20px;
+	left: 337px;
+	width: 100px;
+	height: 300px;
+	line-height: 35px;
+	cursor: pointer;
+}
+
+#safetyFoot{
+	color: white;
+	font-family: Verdana;
+	font-size: 14px;
+	position:relative;
+	bottom: 280px;
+	left: 653px;
+	width: 200px;
+	height: 300px;
+	line-height: 35px;
+	cursor: pointer;
+}
+
+@font-face{
+	font-family: Clan Pro Med;
+	src: url('../fonts/Clan Pro/FFClanProMedium.ttf');
+}
+
+@font-face{
+	font-family: Clan Pro Reg;
+	src: url('../fonts/Clan Pro/FFClanProRegular.ttf');
+}
+
+@font-face{
+	font-family: Clan Pro News;
+	src: url('../fonts/Clan Pro/FFClanProRgNews.ttf');
+}
+
+@font-face{
+	font-family: Clan Pro Bold;
+	src: url('../fonts/Clan Pro/FFClanProBold.ttf');
+}
